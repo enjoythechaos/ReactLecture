@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<HTML>
+  <HEAD>
+    <script src="https://fb.me/react-0.14.2.js"></script>
+    <script src="https://fb.me/react-dom-0.14.2.js"</script>
+  </HEAD>
+  <BODY>
+    <DIV id="my-component">
+    </DIV>
+    <script>
+      ReactDOM.render(
+        React.createElement('div', {}, 'Hello from React!'),
+        document.getElementById('my-component')
+      );
+  </BODY>
+</HTML>
